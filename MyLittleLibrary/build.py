@@ -19,9 +19,19 @@ for index, book in enumerate(books, 1):
     if book["id"] in seen:
         raise SystemExit(f"중복된 id: {book['id']}")
     seen.add(book["id"])
-    for key in ("impression", "recommendation", "review"):
+    for key in ("impression", "recommendation"):
         if not isinstance(book.get(key), str):
             raise SystemExit(f"{index}번째 책의 {key}는 문자열이어야 합니다.")
+    review_file = book.get("review_file", "")
+    if review_file:
+        if not isinstance(review_file, str) or not review_file.startswith("reviews/") or ".." in Path(review_file).parts or Path(review_file).is_absolute():
+            raise SystemExit(f"{index}번째 책의 review_file은 reviews/파일명.txt 형식이어야 합니다.")
+        review_path = ROOT / "private" / review_file
+        if review_path.suffix.lower() != ".txt" or not review_path.is_file():
+            raise SystemExit(f"{index}번째 책의 독후감 파일을 찾을 수 없습니다: {review_file}")
+        book["review"] = review_path.read_text(encoding="utf-8").strip()
+    elif not isinstance(book.get("review"), str):
+        raise SystemExit(f"{index}번째 책에는 review 또는 review_file이 필요합니다.")
     if not (len(book["color"]) == 7 and book["color"][0] == "#" and all(c in "0123456789abcdefABCDEF" for c in book["color"][1:])):
         raise SystemExit(f"{index}번째 책의 color는 #RRGGBB 형식이어야 합니다.")
     cover = book.get("cover", "")
