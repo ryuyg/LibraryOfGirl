@@ -40,7 +40,8 @@
     "cover": "covers/my-first-book.jpg",
     "impression": "읽고 난 뒤의 느낌을 적습니다.",
     "recommendation": "이런 분께 추천합니다.",
-    "review": "독후감 본문을 자유롭게 작성합니다.\n길어지면 다음 장으로 넘어갑니다."
+    "review": "review_file에 있는 .txt파일을 불러옵니다.",
+    "review_file": "reviews/textname.txt"
   }
 ]
 ```
