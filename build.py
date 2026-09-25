@@ -54,7 +54,7 @@ config = json.loads((ROOT / "site-config.json").read_text(encoding="utf-8"))
     + json.dumps({"books": books, "config": config}, ensure_ascii=True).replace("<", "\\u003c")
     + ";\n", encoding="utf-8"
 )
-readme = ROOT / "README.md"
+readme = ROOT / "MyLittleLibrary"/ "README.md"
 body = readme.read_text(encoding="utf-8")
 start, end = "<!-- BOOKS_START -->", "<!-- BOOKS_END -->"
 if start not in body or end not in body:
