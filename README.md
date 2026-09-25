@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  <a href="https://YOUR-USERNAME.github.io/YOUR-REPOSITORY/"><strong>📖 책장 열어보기 →</strong></a>
+  <a href="https://ryuyg.github.io/MyLittleLibary/"><strong>📖 책장 열어보기 →</strong></a>
 </p>
 
 <br>
