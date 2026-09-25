@@ -1,2 +1,0 @@
-# LibraryOfGirl
-My Private Library.
