@@ -2,6 +2,9 @@ private/books.json
 private/books.example.json
 private/*.private.json
 private/covers/
+docs/covers/
+docs/app.js
+docs/book-data.js
 __pycache__/
 .DS_Store
 Thumbs.db
