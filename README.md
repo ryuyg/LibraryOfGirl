@@ -1,46 +1,24 @@
-📚 나의 작은 도서관
+![나의 작은 도서관, 책이 꽂힌 서가](assets/reading-room.svg)
 
-<sub>THE LITTLE READING ROOM</sub>
+<p align="center">
+  <strong>읽은 책을 한 권씩 꽂고, 덮은 뒤의 마음을 남기는 서가입니다.</strong><br>
+  책등을 누르면 첫 장의 짧은 감상에서 시작해 다음 장의 독후감으로 이어집니다.
+</p>
 
-<br>
-
-책을 덮은 뒤에도 오래 남아 있는 문장과 마음을 모읍니다.
-
-<br>
-
-📕　📗　📘　📙　📖　📚
-
-<br><br>
-
-책등을 고르면, 한 권에 남긴 기록이 펼쳐집니다.
-첫 장에는 짧은 감상을, 다음 장부터는 나의 독후감을 담았습니다.
+<p align="center">
+  <a href="https://YOUR-USERNAME.github.io/YOUR-REPOSITORY/"><strong>📖 책장 열어보기 →</strong></a>
+</p>
 
 <br>
 
-↗ 책장으로 들어가기
+## 01 · 서가에 꽂힌 책
+
+|  | 책과 작가 | 읽은 날 |
+| :---: | :--- | :---: |
+| 📕 | **니체의 가르침, 단독자로 살아라**<br>프리드리히 니체 | 2026.09.25 |
 
 <br>
 
-───　✦　───
+> “좋았던 책은 덮은 뒤에도 내 안에서 계속 읽힌다.”
 
-책장에 꽂힌 이야기
-<table>
-  <thead>
-    <tr>
-      <th align="center">책</th> 
-      <th align="center">작가</th>
-      <th align="center">읽은 날</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td align="center">📕 니체의 가르침, 단독자로 살아라 </td>
-      <td align="center"> 프리드리히 니체 </td>
-      <td align="center">2026.09.25</td>
-    </tr>
-  </tbody>
-</table>
-
-<br>
-
-<sub>한 권씩, 천천히 채워가는 나만의 서가.</sub>
+<p align="right"><sub>— 조금씩 채워가는 나만의 독서 기록</sub></p>
